@@ -4,10 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact | Karl Almanzor</title>
+<meta name="description" content="Contact Karl Almanzor about web development projects, collaborations, or questions about building accessible websites.">
+<link rel="canonical" href="https://YOUR-DOMAIN.com/contact.html">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact | Karl Almanzor">
+<meta property="og:description" content="Reach out to Karl Almanzor for website projects, collaborations, or development inquiries.">
+<meta property="og:image" content="https://YOUR-DOMAIN.com/assets/hero-md.jpg">
+<meta property="og:url" content="https://YOUR-DOMAIN.com/contact.html">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
 <header>
-<h1>Your Name</h1>
+<h1>KARL ALMANZOR</h1>
 <nav>
 <ul>
 <li><a href="index.html">Home</a></li>
@@ -17,16 +27,39 @@
 </nav>
 </header>
 <main>
-<article>
-<h2>Welcome</h2>
-<p>Short intro paragraph here.</p>
-</article>
+<section>
+<form action="#" method="POST">
+<fieldset>
+<legend>Contact me</legend>
+<p>
+<label for="name">Full Name</label>
+<input type="text" id="name" name="name" required minlength="2">
+</p>
+<p>
+<label for="email">Email address</label>
+<input type="email" id="email" name="email" required>
+</p>
+<p>
+<label for="phone">Phone (optional)</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9-\s]{7,}">
+</p>
+<p>
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="5" required></textarea>
+</p>
+<p>
+<button type="submit">Send</button>
+</p>
+</fieldset>
+</form>
+</section>
+
 <address>
 	Email: <a href="mailto:karl@example.com">karl@example.com</a>
 </address>
 </main>
 <footer>
-<p>&copy; 2026 Your Name</p>
+<p>&copy; 2026 Karl Almanzor</p>
 </footer>
 </body>
 </html>
