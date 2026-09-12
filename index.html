@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Home | KARL ALMANZOR</title>
 <meta name="description" content="Karl Almanzor builds accessible and responsive websites with a focus on modern design and clean user experiences.">
 <link rel="canonical" href="https://YOUR-DOMAIN.com/index.html">
@@ -14,12 +13,13 @@
 <meta property="og:url" content="https://YOUR-DOMAIN.com/index.html">
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header>
-<h1>KARL ALMANZOR</h1>
+<header class="site-header">
+<a href="index.html" class="logo">Karl Almanzor</a>
 <nav>
-<ul>
+<ul class="nav-links">
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="contact.html">Contact</a></li>
@@ -29,7 +29,9 @@
 <main>
 <article>
 <h2>Welcome</h2>
+<div class="card">
 <p>I'm Karl, watch me wep, watch me ney ney.</p>
+</div>
 <picture>
 <source type="image/webp"
 srcset="assets/hero-sm.webp 400w,
@@ -42,6 +44,17 @@ width="800" height="450"
 loading="lazy">
 </picture>
 </article>
+<section class="projects">
+<h2>Projects</h2>
+<div class="grid">
+<article class="card"><h3>Project 1</h3><p>Short description.</p></article>
+<article class="card"><h3>Project 2</h3><p>Short description.</p></article>
+<article class="card"><h3>Project 3</h3><p>Short description.</p></article>
+<article class="card"><h3>Project 4</h3><p>Short description.</p></article>
+<article class="card"><h3>Project 5</h3><p>Short description.</p></article>
+<article class="card"><h3>Project 6</h3><p>Short description.</p></article>
+</div>
+</section>
 </main>
 <footer>
 <p>&copy; 2026 Karl Almanzor</p>
